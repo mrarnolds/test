@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.0](https://github.com/mrarnolds/test/compare/v1.5.0...v1.6.0) (2025-05-14)
+
+
+### Features
+
+* **facilities:** new mobile look ([15f9c50](https://github.com/mrarnolds/test/commit/15f9c50be9eb869c01a4b3d247ec00f322c15dbe))
+
 ## [1.5.0](https://github.com/mrarnolds/test/compare/v1.4.0...v1.5.0) (2025-05-14)
 
 
