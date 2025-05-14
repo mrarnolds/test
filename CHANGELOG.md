@@ -1,5 +1,26 @@
 # Changelog
 
+## [1.3.0](https://github.com/mrarnolds/test/compare/v1.2.0...v1.3.0) (2025-05-14)
+
+
+### Features
+
+* add ability to override merged commit message ([7a2ef72](https://github.com/mrarnolds/test/commit/7a2ef728fb76b29dcb70a766eaa8e05da582299c))
+
+
+### Bug Fixes
+
+* another message ([7a2ef72](https://github.com/mrarnolds/test/commit/7a2ef728fb76b29dcb70a766eaa8e05da582299c))
+* changesets ([e204215](https://github.com/mrarnolds/test/commit/e2042158147830704a06810b5d3f7adf301b804d))
+* config file ([8630111](https://github.com/mrarnolds/test/commit/8630111c4b09e7473151f3ed5998bb450b97c5bb))
+* remove question mark ([e204215](https://github.com/mrarnolds/test/commit/e2042158147830704a06810b5d3f7adf301b804d))
+* rephrase question ([68c6011](https://github.com/mrarnolds/test/commit/68c60110e6c837a458e3940139db04611152dd55))
+* test ([e204215](https://github.com/mrarnolds/test/commit/e2042158147830704a06810b5d3f7adf301b804d))
+* test ([e204215](https://github.com/mrarnolds/test/commit/e2042158147830704a06810b5d3f7adf301b804d))
+* test ([e204215](https://github.com/mrarnolds/test/commit/e2042158147830704a06810b5d3f7adf301b804d))
+* test ([7a2ef72](https://github.com/mrarnolds/test/commit/7a2ef728fb76b29dcb70a766eaa8e05da582299c))
+* token ([e204215](https://github.com/mrarnolds/test/commit/e2042158147830704a06810b5d3f7adf301b804d))
+
 ## [1.2.0](https://github.com/mrarnolds/test/compare/v1.1.0...v1.2.0) (2025-05-14)
 
 
