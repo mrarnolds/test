@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/mrarnolds/test/compare/v1.1.0...v1.2.0) (2025-05-14)
+
+
+### Features
+
+* **ui:** how are you question added ([8c0ee20](https://github.com/mrarnolds/test/commit/8c0ee2074828d51c769217adf6ac906917d0ae68))
+
 ## [1.1.0](https://github.com/mrarnolds/test/compare/v1.0.0...v1.1.0) (2025-05-14)
 
 
