@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.1](https://github.com/mrarnolds/test/compare/v1.3.0...v1.3.1) (2025-05-14)
+
+
+### Bug Fixes
+
+* revert question mark ([e2ec232](https://github.com/mrarnolds/test/commit/e2ec2329bd56d6e1a0bfe08788a9548048ee683f))
+
 ## [1.3.0](https://github.com/mrarnolds/test/compare/v1.2.0...v1.3.0) (2025-05-14)
 
 
