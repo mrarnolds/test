@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.8.2](https://github.com/mrarnolds/test/compare/v1.8.1...v1.8.2) (2025-05-15)
+
+
+### Bug Fixes
+
+* added missing option ([ad87cf3](https://github.com/mrarnolds/test/commit/ad87cf30e481b4496aa8095f764190d38cb1c724))
+
 ## [1.8.1](https://github.com/mrarnolds/test/compare/v1.8.0...v1.8.1) (2025-05-15)
 
 

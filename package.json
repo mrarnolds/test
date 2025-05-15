@@ -1,6 +1,6 @@
 {
   "name": "myapp",
-  "version": "1.8.1",
+  "version": "1.8.2",
   "description": "Test webpage",
   "main": "index.js",
   "scripts": {
