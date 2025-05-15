@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.14.0-hotfix](https://github.com/mrarnolds/test/compare/v1.13.0...v1.14.0-hotfix) (2025-05-15)
+
+
+### Features
+
+* double select ([fced295](https://github.com/mrarnolds/test/commit/fced29565b6d585a95762934f0b609ff37d47747))
+
+
+### Bug Fixes
+
+* option 5 ([b95dbd4](https://github.com/mrarnolds/test/commit/b95dbd4b6cbc466560c5fb828274e9d8a3709045))
+
 ## [1.13.0](https://github.com/mrarnolds/test/compare/v1.12.0...v1.13.0) (2025-05-15)
 
 
