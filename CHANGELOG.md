@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.12.0](https://github.com/mrarnolds/test/compare/v1.11.0...v1.12.0) (2025-05-15)
+
+
+### Bug Fixes
+
+* value correct ([4e02192](https://github.com/mrarnolds/test/commit/4e02192433be56f1057b917f5a27140ecbf2d773))
+
 ## [1.11.0](https://github.com/mrarnolds/test/compare/v1.10.0...v1.11.0) (2025-05-15)
 
 
