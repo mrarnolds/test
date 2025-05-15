@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.15.0-hotfix](https://github.com/mrarnolds/test/compare/v1.14.0...v1.15.0-hotfix) (2025-05-15)
+
+
+### Features
+
+* new options ([a94a41e](https://github.com/mrarnolds/test/commit/a94a41e34aa23c4b605340193c133375da195132))
+
 ## [1.14.0](https://github.com/mrarnolds/test/compare/v1.13.0...v1.14.0) (2025-05-15)
 
 
