@@ -5,9 +5,10 @@
   },
   "release-type": "node",
   "include-component-in-tag": false,
-  "versioning": "always-bump-patch",
-  "label": "hotfix",
+  "versioning": "prerelease",
+  "extra-label": "hotfix",
   "prerelease": true,
+  "prerelease-type": "hotfix",
   "changelog-sections": [
     { "type": "feat", "section": "Features" },
     { "type": "feature", "section": "Features" },
