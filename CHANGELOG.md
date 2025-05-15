@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.9.1](https://github.com/mrarnolds/test/compare/v1.9.0...v1.9.1) (2025-05-15)
+
+
+### Bug Fixes
+
+* missing dropdown ([a61c612](https://github.com/mrarnolds/test/commit/a61c612ae7a3b7149a87cf7c06b09b5617882a78))
+
 ## [1.9.0](https://github.com/mrarnolds/test/compare/v1.8.0...v1.9.0) (2025-05-15)
 
 
