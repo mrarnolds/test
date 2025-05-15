@@ -8,7 +8,7 @@ permissions:
   pull-requests: write
   issues: write
 
-name: release-please
+name: release-please-hotfix
 
 jobs:
   release-please:
