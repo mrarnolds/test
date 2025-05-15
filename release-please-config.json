@@ -19,5 +19,6 @@
     { "type": "build", "section": "Build System", "hidden": true },
     { "type": "ci", "section": "Continuous Integration", "hidden": true }
   ],
-  "versioning": "always-bump-minor"
+  "versioning": "always-bump-minor",
+  "always-update": true
 }
