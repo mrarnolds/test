@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.11.0](https://github.com/mrarnolds/test/compare/v1.10.0...v1.11.0) (2025-05-15)
+
+
+### Code Refactoring
+
+* testing ([6bbd4d2](https://github.com/mrarnolds/test/commit/6bbd4d2f856995665fcbc466679006a0bb93fdaa))
+
 ## [1.10.0](https://github.com/mrarnolds/test/compare/v1.9.1...v1.10.0) (2025-05-15)
 
 
