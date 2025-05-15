@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.8.1](https://github.com/mrarnolds/test/compare/v1.8.0...v1.8.1) (2025-05-15)
+
+
+### Bug Fixes
+
+* **ui:** added missing dropdown ([1a8097d](https://github.com/mrarnolds/test/commit/1a8097d3acbe9ba012ed7fe0ce76ee0f3c6264bb))
+
 ## [1.8.0](https://github.com/mrarnolds/test/compare/v1.7.0...v1.8.0) (2025-05-15)
 
 
