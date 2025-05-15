@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.8.0](https://github.com/mrarnolds/test/compare/v1.7.0...v1.8.0) (2025-05-15)
+
+
+### Features
+
+* **ui:** support tomorrow ([2abf012](https://github.com/mrarnolds/test/commit/2abf012cdebdf61aef7d6486c9c343a9191945f2))
+
+
+### Bug Fixes
+
+* added missing button ([29cb5e1](https://github.com/mrarnolds/test/commit/29cb5e14bdca3e86c03f969c1a1027c1c641420a))
+
 ## [1.7.0](https://github.com/mrarnolds/test/compare/v1.6.0...v1.7.0) (2025-05-15)
 
 
