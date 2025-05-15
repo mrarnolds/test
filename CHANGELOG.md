@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.9.0](https://github.com/mrarnolds/test/compare/v1.8.0...v1.9.0) (2025-05-15)
+
+
+### Features
+
+* wednesday support ([81a9669](https://github.com/mrarnolds/test/commit/81a96691574c36fa14e26f10599eb69331357332))
+
+
+### Bug Fixes
+
+* removed button ([420a510](https://github.com/mrarnolds/test/commit/420a510d7a086653a3295a9ab4b68c11fa0f4a3c))
+
 ## [1.8.0](https://github.com/mrarnolds/test/compare/v1.7.0...v1.8.0) (2025-05-15)
 
 
