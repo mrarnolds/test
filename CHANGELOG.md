@@ -1,5 +1,16 @@
 # Changelog
 
+## [2.0.0-hotfix](https://github.com/mrarnolds/test/compare/v1.14.0...v2.0.0-hotfix) (2025-05-15)
+
+
+### ⚠ BREAKING CHANGES
+
+* selectors
+
+### Features
+
+* selectors ([c5692cf](https://github.com/mrarnolds/test/commit/c5692cf39c3df22baece56f4d77bba4855d303ea))
+
 ## [1.14.0](https://github.com/mrarnolds/test/compare/v1.13.0...v1.14.0) (2025-05-15)
 
 
