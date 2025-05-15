@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.14.0](https://github.com/mrarnolds/test/compare/v1.13.0...v1.14.0) (2025-05-15)
+
+
+### Bug Fixes
+
+* ci ([132c74b](https://github.com/mrarnolds/test/commit/132c74baf33831bbf45235a65a2c4be24089525b))
+
 ## [1.13.0](https://github.com/mrarnolds/test/compare/v1.12.0...v1.13.0) (2025-05-15)
 
 
