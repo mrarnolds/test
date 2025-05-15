@@ -3,7 +3,8 @@
   "packages": {
     ".": {
       "versioning": "always-bump-patch",
-      "always-update": true
+      "always-update": true,
+      "always-bump-patch": true
     }
   },
   "release-type": "node",
