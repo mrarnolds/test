@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.7.0](https://github.com/mrarnolds/test/compare/v1.6.0...v1.7.0) (2025-05-15)
+
+
+### Features
+
+* support for today ([4f4b844](https://github.com/mrarnolds/test/commit/4f4b844ad057c25fa1b0e336805abacebeac1926))
+
+
+### Bug Fixes
+
+* clean up ([13ce222](https://github.com/mrarnolds/test/commit/13ce22296f8104603f897f6baf8b2ea0da2f0c0e))
+
 ## [1.6.0](https://github.com/mrarnolds/test/compare/v1.5.0...v1.6.0) (2025-05-14)
 
 
