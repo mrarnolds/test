@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.10.1](https://github.com/mrarnolds/test/compare/v1.10.0...v1.10.1) (2025-05-15)
+
+
+### Bug Fixes
+
+* missing option ([f0e8653](https://github.com/mrarnolds/test/commit/f0e8653863227c28098bd01662b8d8f94acd388a))
+
 ## [1.10.0](https://github.com/mrarnolds/test/compare/v1.9.1...v1.10.0) (2025-05-15)
 
 
