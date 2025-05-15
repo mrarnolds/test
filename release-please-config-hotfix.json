@@ -9,6 +9,7 @@
   "extra-label": "hotfix",
   "prerelease-type": "hotfix",
   "bump-patch-for-minor-pre-major": true,
+  "bump-minor-pre-major": true,
   "changelog-sections": [
     { "type": "feat", "section": "Features" },
     { "type": "feature", "section": "Features" },
