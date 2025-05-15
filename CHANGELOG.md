@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.9.1](https://github.com/mrarnolds/test/compare/v1.9.0...v1.9.1) (2025-05-15)
+
+
+### Bug Fixes
+
+* change to thursday ([272d0ab](https://github.com/mrarnolds/test/commit/272d0ab0abb7d982853024c0e133ee141eef2a81))
+
 ## [1.9.0](https://github.com/mrarnolds/test/compare/v1.8.0...v1.9.0) (2025-05-15)
 
 
