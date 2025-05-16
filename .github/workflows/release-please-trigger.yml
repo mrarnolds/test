@@ -15,19 +15,24 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Config git user
+      - name: Github actions bot user
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Delete existing trigger branch
+        run: |
+          git push origin --delete release-please--${{ github.ref_name }}--trigger
 
       - name: Create empty commit
         run: |
           git commit --allow-empty -m "chore: trigger release"
 
-      - name: Create Pull Request
+      - name: Create pull request
         uses: peter-evans/create-pull-request@v7
         with:
-          branch: release-trigger-branch
+          branch: release-please--${{ github.ref_name }}--trigger
           delete-branch: true
           title: "chore: trigger release"
+          labels: "autorelease:manual"
           body: "Automated PR to trigger release-please pull request creation."
