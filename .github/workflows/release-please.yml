@@ -25,6 +25,12 @@ jobs:
           manifest-file: ".release-please/release-please-manifest.json"
           config-file: ".release-please/release-please-config.json"
 
+      - name: Output
+        run: |
+          echo "prs_created: ${{ steps.release.outputs.prs_created }}"
+          echo "json: ${{ steps.release.outputs.pr }}"
+          echo "outputs: ${{ steps.release.outputs }}"
+
       - name: Cleanup root files and folders
         if: always()
         continue-on-error: true
