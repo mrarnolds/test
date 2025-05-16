@@ -13,8 +13,13 @@ permissions:
 jobs:
   release-please:
     runs-on: ubuntu-latest
+    outputs:
+      pr: ${{ steps.release.outputs.pr }}
+      prs_created: ${{ steps.release.outputs.prs_created }}
     steps:
-      - uses: googleapis/release-please-action@v4
+      - name: Release please
+        id: release
+        uses: googleapis/release-please-action@v4
         with:
           token: ${{ secrets.RELEASE_PLEASE_TOKEN }}
           target-branch: ${{ github.ref_name }}
