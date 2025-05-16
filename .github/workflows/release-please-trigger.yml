@@ -22,7 +22,7 @@ jobs:
 
       - name: Delete existing trigger branch
         run: |
-          git push origin --delete release-please--${{ github.ref_name }}--trigger
+          git push origin --delete release-please--${{ github.ref_name }}--trigger || true
 
       - name: Create empty commit
         run: |
