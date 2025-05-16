@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "echo \"Test build\"",
-    "changelog:public": "node ./commands.js --command=changelog-public-regex"
+    "changelog:public": "node ./public-changelog.js"
   },
   "repository": {
     "type": "git",
