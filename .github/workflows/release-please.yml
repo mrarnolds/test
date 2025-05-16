@@ -25,11 +25,12 @@ jobs:
 
       - name: Branch name
         run: |
-          echo "Branch name: ${{ steps.release.outputs.pr.headBranchName }}"
-          echo "Release PR number: ${{ steps.release.outputs.pr.number }}"
+          echo "release_created: ${{ steps.release.outputs.release_created }}"
+          echo "PR: ${{ steps.release.outputs.pr }}"
+          echo "version: ${{ steps.release.outputs.version }}"
 
       - name: Checkout release branch
-        if: steps.release.outputs.releases_created
+        if: steps.release.outputs.prs_created
         uses: actions/checkout@v3
         with:
           ref: ${{ steps.release.outputs.pr.headBranchName }}
