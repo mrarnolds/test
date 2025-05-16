@@ -1,5 +1,27 @@
 # Changelog
 
+## [1.17.0](https://github.com/mrarnolds/test/compare/v1.16.0...v1.17.0) (2025-05-16)
+
+
+### Features
+
+* button to click ([#69](https://github.com/mrarnolds/test/issues/69)) ([0ed5d2d](https://github.com/mrarnolds/test/commit/0ed5d2db60fa468f93c842bdea7803ab56074ee6))
+
+
+### Bug Fixes
+
+* ci ([0f8d1c2](https://github.com/mrarnolds/test/commit/0f8d1c2d7477cfc7077f7bab455b2ce719d877cf))
+* ci ([00e0f5a](https://github.com/mrarnolds/test/commit/00e0f5a06234f912a1dd110723fa90157d5f1c68))
+* ci ([441f6c9](https://github.com/mrarnolds/test/commit/441f6c97e2a37a6ed1c8a2de134475fa4e2bcf90))
+* ci flow ([1eb98f3](https://github.com/mrarnolds/test/commit/1eb98f3293878444eeee38b72d61f6f7fdc045f2))
+* copy ([#72](https://github.com/mrarnolds/test/issues/72)) ([07aa188](https://github.com/mrarnolds/test/commit/07aa1880c54156a0df450482d80f2d4d7e8c70c5))
+* copy ([#73](https://github.com/mrarnolds/test/issues/73)) ([1539b4e](https://github.com/mrarnolds/test/commit/1539b4eeb1ee35d0df76e4c65905427cac9f7765))
+* copy ([#74](https://github.com/mrarnolds/test/issues/74)) ([d5ca692](https://github.com/mrarnolds/test/commit/d5ca692a199752b199b3ced3c08ce5b3ee66161d))
+* copy for button ([#71](https://github.com/mrarnolds/test/issues/71)) ([a9d1742](https://github.com/mrarnolds/test/commit/a9d1742f36d354fa56f01c6d58842f2f69252f44))
+* copy now ([8e74bb9](https://github.com/mrarnolds/test/commit/8e74bb91c32171e2d95cfd22953ce653b3eef2b7))
+* revert ci ([5dbe52c](https://github.com/mrarnolds/test/commit/5dbe52cc4e16c6e81e0b37c54ef11c43e7e0fdad))
+* text ([#75](https://github.com/mrarnolds/test/issues/75)) ([c2bd463](https://github.com/mrarnolds/test/commit/c2bd463221a330374e63d2e86d976e07f831336a))
+
 ## [1.16.0](https://github.com/mrarnolds/test/compare/v1.15.0...v1.16.0) (2025-05-16)
 
 
