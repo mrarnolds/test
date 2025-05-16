@@ -1,3 +1,45 @@
+## 1.16.0 (2025-05-16)
+
+### Features
+
+- add ability to override merged commit message
+- added title hello
+- **facilities:** new mobile look
+- release please action
+- startpage added
+- support for today
+- **ui:** how are you question added
+- **ui:** new button component
+- **ui:** support tomorrow
+- wednesday support
+
+### Bug Fixes
+
+- fix:
+- added missing button
+- added missing package.json
+- another message
+- changesets
+- ci
+- clean up
+- config file
+- missing dropdown
+- remove question mark
+- removed button
+- rephrase question
+- revert question mark
+- test
+- test
+- test
+- test
+- test
+- test
+- test
+- test
+- token
+- value correct
+- workflow permissions
+
 ## 1.15.0 (2025-05-15)
 
 ### Bug Fixes
@@ -73,13 +115,3 @@
 ### Bug Fixes
 
 - removed button
-
-## 1.8.0 (2025-05-15)
-
-### Features
-
-- **ui:** support tomorrow
-
-### Bug Fixes
-
-- added missing button
