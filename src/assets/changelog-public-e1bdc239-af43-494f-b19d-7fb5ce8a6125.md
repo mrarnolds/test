@@ -1,3 +1,15 @@
+## 1.16.0 (2025-05-16)
+
+### Features
+
+- option added
+
+### Bug Fixes
+
+- missing stuff
+- test
+- test
+
 ## 1.15.0 (2025-05-15)
 
 ### Bug Fixes
@@ -73,13 +85,3 @@
 ### Bug Fixes
 
 - removed button
-
-## 1.8.0 (2025-05-15)
-
-### Features
-
-- **ui:** support tomorrow
-
-### Bug Fixes
-
-- added missing button
