@@ -1,5 +1,28 @@
 # Changelog
 
+## [1.16.0](https://github.com/mrarnolds/test/compare/v1.15.0...v1.16.0) (2025-05-16)
+
+
+### Features
+
+* option added ([bd387ea](https://github.com/mrarnolds/test/commit/bd387ea8911acca1b92e6513096a024fbdac6e02))
+
+
+### Bug Fixes
+
+* missing stuff ([5c69461](https://github.com/mrarnolds/test/commit/5c69461406ad83f6330a6a60ab2e2f5ab39b3f28))
+* test ([52937c7](https://github.com/mrarnolds/test/commit/52937c7416e75c91814976c211df048e8ddbe923))
+* test ([48a36dd](https://github.com/mrarnolds/test/commit/48a36ddcd0c69b6bc340c601236c29d26c52b32a))
+
+
+### Miscellaneous Chores
+
+* generate public changelog ([8d96073](https://github.com/mrarnolds/test/commit/8d96073f32e5ebf6996f89e8f04dd66749cf1887))
+* **main:** release 1.15.1 ([#32](https://github.com/mrarnolds/test/issues/32)) ([61622c6](https://github.com/mrarnolds/test/commit/61622c6d9d3b49226cde11cb8ef0145d2bb195d4))
+* **release:** no user facing changes ([#46](https://github.com/mrarnolds/test/issues/46)) ([e107732](https://github.com/mrarnolds/test/commit/e10773248cb272da6d09681d1c918e48672a8bf5))
+* trigger release ([2d8c092](https://github.com/mrarnolds/test/commit/2d8c092a3fad044b15505f7230e5d6b9daff7434))
+* trigger release ([f9dacc8](https://github.com/mrarnolds/test/commit/f9dacc8698554400eb4a313c6b6d46ee0eaccc46))
+
 ## [1.15.1](https://github.com/mrarnolds/test/compare/v1.15.0...v1.15.1) (2025-05-16)
 
 
