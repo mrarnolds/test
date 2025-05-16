@@ -26,7 +26,7 @@ jobs:
 
       - name: Create empty commit
         run: |
-          git commit --allow-empty -m "chore: trigger release"
+          git commit --allow-empty -m "chore(release): no user facing changes"
 
       - name: Create pull request
         uses: peter-evans/create-pull-request@v7
@@ -35,4 +35,4 @@ jobs:
           delete-branch: true
           title: "chore: trigger release"
           labels: "autorelease:manual"
-          body: "Automated PR to trigger release-please pull request creation."
+          body: "Automates the creation of a Release Please PR. No user facing changes."
