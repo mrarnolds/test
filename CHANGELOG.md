@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.16.1](https://github.com/mrarnolds/test/compare/v1.16.0...v1.16.1) (2025-05-16)
+
+
+### Bug Fixes
+
+* added missing button ([b244b2c](https://github.com/mrarnolds/test/commit/b244b2cb01af8a2505e952c0f775a4e05615f5d2))
+
 ## [1.16.0](https://github.com/mrarnolds/test/compare/v1.15.0...v1.16.0) (2025-05-16)
 
 
