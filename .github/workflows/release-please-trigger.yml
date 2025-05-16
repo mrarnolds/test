@@ -15,12 +15,14 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
+      - name: Create empty commit
+        run: |
+          git commit --allow-empty -m "chore: trigger release"
+
       - name: Create Pull Request
-        id: cpr
         uses: peter-evans/create-pull-request@v7
         with:
           branch: release-trigger-branch
+          delete-branch: true
           title: "chore: trigger release"
-          body: "Automated PR to trigger release-please"
-          base: main
-          draft: false
+          body: "Automated PR to trigger release-please pull request creation."
