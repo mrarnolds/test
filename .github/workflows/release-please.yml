@@ -26,6 +26,11 @@ jobs:
           manifest-file: ".release-please/release-please-manifest.json"
           config-file: ".release-please/release-please-config.json"
 
+      - name: Cleanup root files and folders
+        if: always()
+        continue-on-error: true
+        run: find . -mindepth 1 -maxdepth 1 -not -name "." -not -name ".." -exec rm -rf {} +
+
   public-changelog:
     needs: release-please
     runs-on: ubuntu-latest
@@ -52,3 +57,8 @@ jobs:
           git fetch origin ${{ fromJSON(needs.release-please.outputs.pr).headBranchName }}
           git rebase origin/${{ fromJSON(needs.release-please.outputs.pr).headBranchName }}
           git push origin HEAD:${{ fromJSON(needs.release-please.outputs.pr).headBranchName }}
+
+      - name: Cleanup root files and folders
+        if: always()
+        continue-on-error: true
+        run: find . -mindepth 1 -maxdepth 1 -not -name "." -not -name ".." -exec rm -rf {} +

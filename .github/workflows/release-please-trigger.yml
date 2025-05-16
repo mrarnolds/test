@@ -47,3 +47,8 @@ jobs:
         run: |
           echo "Merging PR #${{ steps.cpr.outputs.pull-request-number }}"
           gh pr merge ${{ steps.cpr.outputs.pull-request-number }} --squash --delete-branch --admin
+
+      - name: Cleanup root files and folders
+        if: always()
+        continue-on-error: true
+        run: find . -mindepth 1 -maxdepth 1 -not -name "." -not -name ".." -exec rm -rf {} +

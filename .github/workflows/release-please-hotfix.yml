@@ -25,3 +25,8 @@ jobs:
           target-branch: ${{ github.ref_name }}
           manifest-file: ".release-please/release-please-manifest.json"
           config-file: ".release-please/release-please-config-hotfix.json"
+
+      - name: Cleanup root files and folders
+        if: always()
+        continue-on-error: true
+        run: find . -mindepth 1 -maxdepth 1 -not -name "." -not -name ".." -exec rm -rf {} +
