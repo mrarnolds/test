@@ -38,3 +38,5 @@ jobs:
           labels: "autorelease:manual"
           body: "Automates the creation of a Release Please PR. No user facing changes."
           delete-branch: true
+          merge: true
+          merge-method: squash
