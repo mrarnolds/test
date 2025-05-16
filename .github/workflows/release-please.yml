@@ -1,0 +1,69 @@
+name: Release Please
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+jobs:
+  release-please:
+    runs-on: ubuntu-latest
+    outputs:
+      pr: ${{ steps.release.outputs.pr }}
+      prs_created: ${{ steps.release.outputs.prs_created }}
+    steps:
+      - name: Release please
+        id: release
+        uses: googleapis/release-please-action@v4
+        with:
+          target-branch: ${{ github.ref_name }}
+          manifest-file: ".release-please/.release-please-manifest.json"
+          config-file: ".release-please/release-please-config.json"
+
+      - name: Output
+        run: |
+          echo "PR Created: ${{ steps.release.outputs.prs_created }}"
+          echo "PR JSON: ${{ fromJSON(steps.release.outputs.pr || 'null') }}"
+
+      - name: Cleanup root files and folders
+        if: always()
+        continue-on-error: true
+        run: find . -mindepth 1 -maxdepth 1 -not -name "." -not -name ".." -exec rm -rf {} +
+
+  public-changelog:
+    needs: release-please
+    runs-on: ubuntu-latest
+    if: needs.release-please.outputs.prs_created == 'true'
+    steps:
+      - name: Checkout release branch
+        uses: actions/checkout@v3
+        with:
+          ref: ${{ fromJSON(needs.release-please.outputs.pr).headBranchName }}
+
+      - name: Github actions bot user
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Generate public changelog and capture output
+        id: public-changelog
+        run: |
+          path=$(npm run changelog:public --silent)
+          echo "path=$path" >> $GITHUB_OUTPUT
+
+      - name: Commit file to release PR
+        run: |
+          git add ${{ steps.public-changelog.outputs.path }}
+          git commit --amend --no-edit || echo "No changes to commit"
+          git fetch origin ${{ fromJSON(needs.release-please.outputs.pr).headBranchName }}
+          git push --force origin HEAD:${{ fromJSON(needs.release-please.outputs.pr).headBranchName }}
+
+      - name: Cleanup root files and folders
+        if: always()
+        continue-on-error: true
+        run: find . -mindepth 1 -maxdepth 1 -not -name "." -not -name ".." -exec rm -rf {} +

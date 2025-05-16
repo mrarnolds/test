@@ -1,0 +1,31 @@
+name: Release Please Hotfix
+
+on:
+  push:
+    branches:
+      - hotfix/**
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+jobs:
+  release-please:
+    runs-on: ubuntu-latest
+    outputs:
+      pr: ${{ steps.release.outputs.pr }}
+      prs_created: ${{ steps.release.outputs.prs_created }}
+    steps:
+      - name: Release please
+        id: release
+        uses: googleapis/release-please-action@v4
+        with:
+          target-branch: ${{ github.ref_name }}
+          manifest-file: ".release-please/.release-please-manifest.json"
+          config-file: ".release-please/release-please-config-hotfix.json"
+
+      - name: Cleanup root files and folders
+        if: always()
+        continue-on-error: true
+        run: find . -mindepth 1 -maxdepth 1 -not -name "." -not -name ".." -exec rm -rf {} +
