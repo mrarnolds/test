@@ -59,7 +59,7 @@ jobs:
       - name: Commit file to release PR
         run: |
           git add ${{ steps.public-changelog.outputs.path }}
-          git commit -m "chore: generate public changelog" || echo "No changes to commit"
+          git commit --amend --no-edit || echo "No changes to commit"
           git fetch origin ${{ fromJSON(needs.release-please.outputs.pr).headBranchName }}
           git rebase origin/${{ fromJSON(needs.release-please.outputs.pr).headBranchName }}
           git push origin HEAD:${{ fromJSON(needs.release-please.outputs.pr).headBranchName }}
