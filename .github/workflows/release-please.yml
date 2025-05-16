@@ -38,7 +38,7 @@ jobs:
   public-changelog:
     needs: release-please
     runs-on: ubuntu-latest
-    if: needs.release-please.outputs.prs_created
+    if: needs.release-please.outputs.prs_created == 'true'
     steps:
       - name: Checkout release branch
         uses: actions/checkout@v3
