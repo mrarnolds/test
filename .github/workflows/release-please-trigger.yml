@@ -1,4 +1,4 @@
-name: Trigger Release PR Creation
+name: Release Please Manual Trigger
 
 on:
   workflow_dispatch:
@@ -11,7 +11,7 @@ jobs:
   trigger-release:
     runs-on: ubuntu-latest
     env:
-      TRIGGER_BRANCH: release-please--branches--${{ github.ref_name }}--trigger--pr
+      TRIGGER_BRANCH: release-please--trigger--${{ github.ref_name }}
 
     steps:
       - name: Checkout repository

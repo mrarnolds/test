@@ -1,3 +1,5 @@
+name: Release Please Post Process
+
 on:
   pull_request:
     branches:
@@ -6,8 +8,6 @@ on:
       - opened
       - synchronize
       - reopened
-
-name: release-please postprocess
 
 jobs:
   postprocess:
