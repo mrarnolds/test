@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.16.0](https://github.com/mrarnolds/test/compare/v1.15.1...v1.16.0) (2025-05-16)
+
+
+### Bug Fixes
+
+* test ([52937c7](https://github.com/mrarnolds/test/commit/52937c7416e75c91814976c211df048e8ddbe923))
+* test ([48a36dd](https://github.com/mrarnolds/test/commit/48a36ddcd0c69b6bc340c601236c29d26c52b32a))
+
+
+### Miscellaneous Chores
+
+* **release:** no user facing changes ([#46](https://github.com/mrarnolds/test/issues/46)) ([e107732](https://github.com/mrarnolds/test/commit/e10773248cb272da6d09681d1c918e48672a8bf5))
+* trigger release ([2d8c092](https://github.com/mrarnolds/test/commit/2d8c092a3fad044b15505f7230e5d6b9daff7434))
+
 ## [1.15.1](https://github.com/mrarnolds/test/compare/v1.15.0...v1.15.1) (2025-05-16)
 
 
