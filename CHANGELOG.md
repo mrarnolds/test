@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.15.1](https://github.com/mrarnolds/test/compare/v1.15.0...v1.15.1) (2025-05-16)
+
+
+### Miscellaneous Chores
+
+* trigger release ([f9dacc8](https://github.com/mrarnolds/test/commit/f9dacc8698554400eb4a313c6b6d46ee0eaccc46))
+
 ## [1.15.0](https://github.com/mrarnolds/test/compare/v1.14.0...v1.15.0) (2025-05-15)
 
 
