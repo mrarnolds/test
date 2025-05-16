@@ -15,7 +15,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Release please
-        id: release
         uses: googleapis/release-please-action@v4
         with:
           token: ${{ secrets.RELEASE_PLEASE_TOKEN }}
@@ -26,7 +25,7 @@ jobs:
   public-changelog:
     needs: release-please
     runs-on: ubuntu-latest
-    if: needs.release.outputs.prs_created
+    if: needs.release-please.outputs.prs_created
     steps:
       - name: Branch name
         run: |
@@ -49,4 +48,4 @@ jobs:
           git config user.email "${{ github.actor }}@users.noreply.github.com"
           git add CHANGELOG_PUBLIC.md
           git commit -m "chore: generate public changelog" || echo "No changes to commit"
-          git push origin HEAD:${{ steps.release.outputs.pr.headBranchName }}
+          git push origin HEAD:${{ fromJSON(needs.release-please.outputs.pr).headBranchName }}
