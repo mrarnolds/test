@@ -23,15 +23,18 @@ jobs:
           manifest-file: ".release-please/release-please-manifest.json"
           config-file: ".release-please/release-please-config.json"
 
+  public-changelog:
+    needs: release-please
+    runs-on: ubuntu-latest
+    if: needs.release.outputs.prs_created
+    steps:
       - name: Branch name
         run: |
-          echo "release_created: ${{ steps.release.outputs.prs_created }}"
-          echo "PR: ${{ fromJSON(steps.release.outputs.pr) }}"
-          echo "headBranchName: ${{ fromJSON(steps.release.outputs.pr).headBranchName }}"
-          echo "version: ${{ steps.release.outputs.version }}"
+          echo "release_created: ${{ needs.release.outputs.prs_created }}"
+          echo "PR: ${{ fromJSON(needs.release.outputs.pr) }}"
+          echo "headBranchName: ${{ fromJSON(needs.release.outputs.pr).headBranchName }}"
 
       - name: Checkout release branch
-        if: steps.release.outputs.prs_created
         uses: actions/checkout@v3
         with:
           ref: ${{ steps.release.outputs.pr.headBranchName }}
