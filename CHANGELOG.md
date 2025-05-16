@@ -1,5 +1,91 @@
 # Changelog
 
+## [1.16.0](https://github.com/mrarnolds/test/compare/v1.15.1...v1.16.0) (2025-05-16)
+
+
+### Features
+
+* add ability to override merged commit message ([7a2ef72](https://github.com/mrarnolds/test/commit/7a2ef728fb76b29dcb70a766eaa8e05da582299c))
+* added title hello ([4754d99](https://github.com/mrarnolds/test/commit/4754d99e288b01740d14ea1a3188311c9948f901))
+* **facilities:** new mobile look ([15f9c50](https://github.com/mrarnolds/test/commit/15f9c50be9eb869c01a4b3d247ec00f322c15dbe))
+* release please action ([100e597](https://github.com/mrarnolds/test/commit/100e597f65ccfa03b3aefb7dc772ae489a3195b0))
+* startpage added ([2f3c401](https://github.com/mrarnolds/test/commit/2f3c401e44b1268a2848d33aa00fe2a456fc650f))
+* support for today ([4f4b844](https://github.com/mrarnolds/test/commit/4f4b844ad057c25fa1b0e336805abacebeac1926))
+* **ui:** how are you question added ([8c0ee20](https://github.com/mrarnolds/test/commit/8c0ee2074828d51c769217adf6ac906917d0ae68))
+* **ui:** new button component ([adc49fc](https://github.com/mrarnolds/test/commit/adc49fc798e051a2ed62c6b6e91b4e7eb8b849cf))
+* **ui:** support tomorrow ([2abf012](https://github.com/mrarnolds/test/commit/2abf012cdebdf61aef7d6486c9c343a9191945f2))
+* wednesday support ([81a9669](https://github.com/mrarnolds/test/commit/81a96691574c36fa14e26f10599eb69331357332))
+
+
+### Bug Fixes
+
+* fix:  ([9b2cce6](https://github.com/mrarnolds/test/commit/9b2cce6d26cb38df2f2885ff9a0df6d7dcaba0a7))
+* added missing button ([29cb5e1](https://github.com/mrarnolds/test/commit/29cb5e14bdca3e86c03f969c1a1027c1c641420a))
+* added missing package.json ([38ddf92](https://github.com/mrarnolds/test/commit/38ddf92d767f80de3117bbb83b632a9049625bc7))
+* another message ([7a2ef72](https://github.com/mrarnolds/test/commit/7a2ef728fb76b29dcb70a766eaa8e05da582299c))
+* changesets ([e204215](https://github.com/mrarnolds/test/commit/e2042158147830704a06810b5d3f7adf301b804d))
+* ci ([132c74b](https://github.com/mrarnolds/test/commit/132c74baf33831bbf45235a65a2c4be24089525b))
+* clean up ([13ce222](https://github.com/mrarnolds/test/commit/13ce22296f8104603f897f6baf8b2ea0da2f0c0e))
+* config file ([8630111](https://github.com/mrarnolds/test/commit/8630111c4b09e7473151f3ed5998bb450b97c5bb))
+* missing dropdown ([a61c612](https://github.com/mrarnolds/test/commit/a61c612ae7a3b7149a87cf7c06b09b5617882a78))
+* remove question mark ([e204215](https://github.com/mrarnolds/test/commit/e2042158147830704a06810b5d3f7adf301b804d))
+* removed button ([420a510](https://github.com/mrarnolds/test/commit/420a510d7a086653a3295a9ab4b68c11fa0f4a3c))
+* rephrase question ([68c6011](https://github.com/mrarnolds/test/commit/68c60110e6c837a458e3940139db04611152dd55))
+* revert question mark ([e2ec232](https://github.com/mrarnolds/test/commit/e2ec2329bd56d6e1a0bfe08788a9548048ee683f))
+* test ([52937c7](https://github.com/mrarnolds/test/commit/52937c7416e75c91814976c211df048e8ddbe923))
+* test ([48a36dd](https://github.com/mrarnolds/test/commit/48a36ddcd0c69b6bc340c601236c29d26c52b32a))
+* test ([249e9bb](https://github.com/mrarnolds/test/commit/249e9bbd3be77642cabba86ff23d54b6e8b75498))
+* test ([dffb935](https://github.com/mrarnolds/test/commit/dffb9356824c397fa4a86fd53ffc5e0050865170))
+* test ([e204215](https://github.com/mrarnolds/test/commit/e2042158147830704a06810b5d3f7adf301b804d))
+* test ([e204215](https://github.com/mrarnolds/test/commit/e2042158147830704a06810b5d3f7adf301b804d))
+* test ([e204215](https://github.com/mrarnolds/test/commit/e2042158147830704a06810b5d3f7adf301b804d))
+* test ([7a2ef72](https://github.com/mrarnolds/test/commit/7a2ef728fb76b29dcb70a766eaa8e05da582299c))
+* token ([e204215](https://github.com/mrarnolds/test/commit/e2042158147830704a06810b5d3f7adf301b804d))
+* value correct ([4e02192](https://github.com/mrarnolds/test/commit/4e02192433be56f1057b917f5a27140ecbf2d773))
+* workflow permissions ([6ff7cb7](https://github.com/mrarnolds/test/commit/6ff7cb7f08fd07676a799023692fc9047716a5e1))
+
+
+### Styles
+
+* color yesterday ([7bfda98](https://github.com/mrarnolds/test/commit/7bfda98de4dc5f3d7656602428a92b87cf227d39))
+* fixed yesterday ([7bfda98](https://github.com/mrarnolds/test/commit/7bfda98de4dc5f3d7656602428a92b87cf227d39))
+* test ([3a7f92e](https://github.com/mrarnolds/test/commit/3a7f92ee55fb9a6685dc1e094c1a27fd06c6ab0b))
+* testing again ([629dda2](https://github.com/mrarnolds/test/commit/629dda233091560ee43a9dfedc24f3d4329a8d0d))
+
+
+### Miscellaneous Chores
+
+* fix package json version ([92d6917](https://github.com/mrarnolds/test/commit/92d69172fb2f0a5e9917607a3689716166943d59))
+* generate public changelog ([8d96073](https://github.com/mrarnolds/test/commit/8d96073f32e5ebf6996f89e8f04dd66749cf1887))
+* **main:** release 1.1.0 ([#1](https://github.com/mrarnolds/test/issues/1)) ([e9ff807](https://github.com/mrarnolds/test/commit/e9ff807bfca056ed9a01b5288634886d6f27232b))
+* **main:** release 1.10.0 ([#18](https://github.com/mrarnolds/test/issues/18)) ([221715c](https://github.com/mrarnolds/test/commit/221715c8f755ce4965c87db4c298c8c82707ff5f))
+* **main:** release 1.11.0 ([#20](https://github.com/mrarnolds/test/issues/20)) ([2f1b60f](https://github.com/mrarnolds/test/commit/2f1b60fe6fd3e058f6001e152c2a73b57e2eb5d0))
+* **main:** release 1.12.0 ([#21](https://github.com/mrarnolds/test/issues/21)) ([d886fa6](https://github.com/mrarnolds/test/commit/d886fa65482214b13b6eec5be9c6ba790351cfa0))
+* **main:** release 1.13.0 ([#23](https://github.com/mrarnolds/test/issues/23)) ([e1748fb](https://github.com/mrarnolds/test/commit/e1748fbdf834b96a7678e968800136c25065f25f))
+* **main:** release 1.14.0 ([#25](https://github.com/mrarnolds/test/issues/25)) ([caa8ddd](https://github.com/mrarnolds/test/commit/caa8ddd3aa32aa4e4b6ade83c60ee9d42ba01a4f))
+* **main:** release 1.15.0 ([#31](https://github.com/mrarnolds/test/issues/31)) ([1c474fc](https://github.com/mrarnolds/test/commit/1c474fc23de58cdca9c18b7586d37c384cabb6cd))
+* **main:** release 1.15.1 ([#32](https://github.com/mrarnolds/test/issues/32)) ([61622c6](https://github.com/mrarnolds/test/commit/61622c6d9d3b49226cde11cb8ef0145d2bb195d4))
+* **main:** release 1.2.0 ([#2](https://github.com/mrarnolds/test/issues/2)) ([664b649](https://github.com/mrarnolds/test/commit/664b6498ab0d81f0af9cd52812e1f7291d60ea11))
+* **main:** release 1.3.0 ([#4](https://github.com/mrarnolds/test/issues/4)) ([70712f2](https://github.com/mrarnolds/test/commit/70712f2d334bb1e889da4c3863f91fc8e8dcca3a))
+* **main:** release 1.5.0 ([#7](https://github.com/mrarnolds/test/issues/7)) ([c30f53b](https://github.com/mrarnolds/test/commit/c30f53b32fdfbc6094ca7922f048ce19e305d3c7))
+* **main:** release 1.6.0 ([#8](https://github.com/mrarnolds/test/issues/8)) ([e51e545](https://github.com/mrarnolds/test/commit/e51e545c930451fe53cd2e2d3cd093fabc8e1c55))
+* **main:** release 1.7.0 ([#9](https://github.com/mrarnolds/test/issues/9)) ([ff7d5d9](https://github.com/mrarnolds/test/commit/ff7d5d90598b95109c7177bde89907848cdac284))
+* **main:** release 1.8.0 ([#10](https://github.com/mrarnolds/test/issues/10)) ([0c93d27](https://github.com/mrarnolds/test/commit/0c93d2746251870821d58b397d691b4027fb480e))
+* **main:** release 1.9.0 ([#11](https://github.com/mrarnolds/test/issues/11)) ([ce6465e](https://github.com/mrarnolds/test/commit/ce6465ebe7678687058f208048a2d980a14c85d6))
+* **main:** release 1.9.1 ([#14](https://github.com/mrarnolds/test/issues/14)) ([86a86a9](https://github.com/mrarnolds/test/commit/86a86a915fc9f67c15be421194f8efadea19d603))
+* **main:** release myapp 1.4.0 ([#6](https://github.com/mrarnolds/test/issues/6)) ([e3f86a9](https://github.com/mrarnolds/test/commit/e3f86a9a88d31da6aa76d99066f12f5ef27034ea))
+* **release:** no user facing changes ([#46](https://github.com/mrarnolds/test/issues/46)) ([e107732](https://github.com/mrarnolds/test/commit/e10773248cb272da6d09681d1c918e48672a8bf5))
+* trigger release ([2d8c092](https://github.com/mrarnolds/test/commit/2d8c092a3fad044b15505f7230e5d6b9daff7434))
+* trigger release ([f9dacc8](https://github.com/mrarnolds/test/commit/f9dacc8698554400eb4a313c6b6d46ee0eaccc46))
+
+
+### Code Refactoring
+
+* select ([1fcfbd0](https://github.com/mrarnolds/test/commit/1fcfbd0f114686de1c02f5a5d313b531b81b4339))
+* test ([1fcfbd0](https://github.com/mrarnolds/test/commit/1fcfbd0f114686de1c02f5a5d313b531b81b4339))
+* testing ([6bbd4d2](https://github.com/mrarnolds/test/commit/6bbd4d2f856995665fcbc466679006a0bb93fdaa))
+* **ui:** multiple yesterdays ([7bfda98](https://github.com/mrarnolds/test/commit/7bfda98de4dc5f3d7656602428a92b87cf227d39))
+
 ## [1.15.1](https://github.com/mrarnolds/test/compare/v1.15.0...v1.15.1) (2025-05-16)
 
 
