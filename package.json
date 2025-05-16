@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "echo \"Test build\"",
-    "changelog:public": "node generate.js"
+    "changelog:public": "node ./commands.js --command=changelog-public-regex"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,10 @@
   "homepage": "https://github.com/mrarnolds/test#readme",
   "devDependencies": {
     "@changesets/cli": "^2.29.4",
-    "auto": "^11.3.0"
+    "auto": "^11.3.0",
+    "axios": "^1.9.0",
+    "minimist-lite": "^2.3.0",
+    "shelljs": "^0.10.0"
   },
   "auto": {
     "plugins": [

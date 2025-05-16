@@ -46,13 +46,15 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-      - name: Generate public changelog
+      - name: Generate public changelog and capture output
+        id: public-changelog
         run: |
-          npm run changelog:public
+          path=$(npm run changelog:public --silent)
+          echo "path=$path" >> $GITHUB_OUTPUT
 
       - name: Commit file to release PR
         run: |
-          git add CHANGELOG_PUBLIC.md
+          git add ${{ steps.public-changelog.outputs.path }}
           git commit -m "chore: generate public changelog" || echo "No changes to commit"
           git fetch origin ${{ fromJSON(needs.release-please.outputs.pr).headBranchName }}
           git rebase origin/${{ fromJSON(needs.release-please.outputs.pr).headBranchName }}
