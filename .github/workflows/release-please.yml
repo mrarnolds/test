@@ -26,8 +26,8 @@ jobs:
       - name: Branch name
         run: |
           echo "release_created: ${{ steps.release.outputs.prs_created }}"
-          echo "PR: ${{ steps.release.outputs.pr }}"
-          echo "headBranchName: ${{ steps.release.outputs.pr.headBranchName }}"
+          echo "PR: ${{ fromJSON(steps.release.outputs.pr) }}"
+          echo "headBranchName: ${{ fromJSON(steps.release.outputs.pr).headBranchName }}"
           echo "version: ${{ steps.release.outputs.version }}"
 
       - name: Checkout release branch
