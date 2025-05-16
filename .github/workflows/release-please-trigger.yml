@@ -38,5 +38,9 @@ jobs:
           labels: "autorelease:manual"
           body: "Automates the creation of a Release Please PR. No user facing changes."
           delete-branch: true
-          merge: true
-          merge-method: squash
+
+      - name: Merge pull request
+        if: steps.cpr.outputs.pull-request-number != ''
+        run: |
+          echo "Merging PR #${{ steps.cpr.outputs.pull-request-number }}"
+          gh pr merge ${{ steps.cpr.outputs.pull-request-number }} --squash --delete-branch --admin
