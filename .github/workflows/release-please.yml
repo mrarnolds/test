@@ -12,6 +12,7 @@ permissions:
   issues: write
 
 jobs:
+  # Manually trigger release-please through a pull request and commit
   trigger-release:
     if: github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
@@ -58,8 +59,8 @@ jobs:
         continue-on-error: true
         run: find . -mindepth 1 -maxdepth 1 -not -name "." -not -name ".." -exec rm -rf {} +
 
+  # Depend on trigger-release manually dispatched otherwise run standalone
   release-please:
-    # Depend on trigger-release manually dispatched otherwise run standalone
     needs: [trigger-release]
     if: github.event_name != 'workflow_dispatch' || success()
     runs-on: ubuntu-latest
@@ -75,16 +76,17 @@ jobs:
           manifest-file: ".release-please/release-please-manifest.json"
           config-file: ".release-please/release-please-config.json"
 
-      - name: Output
+      - name: Release please debug
         run: |
-          echo "PR Created: ${{ steps.release.outputs.prs_created }}"
-          echo "PR JSON: ${{ fromJSON(steps.release.outputs.pr || 'null') }}"
+          echo "Pull request created: ${{ steps.release.outputs.prs_created }}"
+          echo "Pull request headBranchName: ${{ fromJSON(steps.release.outputs.pr || '{}').headBranchName }}"
 
       - name: Cleanup root files and folders
         if: always()
         continue-on-error: true
         run: find . -mindepth 1 -maxdepth 1 -not -name "." -not -name ".." -exec rm -rf {} +
 
+  # Generate public changelog if a release PR was created
   public-changelog:
     needs: release-please
     if: needs.release-please.outputs.prs_created == 'true'
