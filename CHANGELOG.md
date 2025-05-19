@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.18.0](https://github.com/mrarnolds/test/compare/v1.17.0...v1.18.0) (2025-05-19)
+
+
+### Miscellaneous Chores
+
+* **release:** no user facing changes ([#80](https://github.com/mrarnolds/test/issues/80)) ([826e7b7](https://github.com/mrarnolds/test/commit/826e7b7ca5cf971b0ffd7908995d3b7337eb4ff5))
+* **release:** no user facing changes ([#81](https://github.com/mrarnolds/test/issues/81)) ([802c58c](https://github.com/mrarnolds/test/commit/802c58c4bc5c96872292f80172c74b65dbe43a29))
+* **release:** no user facing changes ([#82](https://github.com/mrarnolds/test/issues/82)) ([755aece](https://github.com/mrarnolds/test/commit/755aece1ee6b07cec51aa3c91992829947a67cdf))
+* **release:** no user facing changes ([#84](https://github.com/mrarnolds/test/issues/84)) ([9f43bae](https://github.com/mrarnolds/test/commit/9f43baec758dcf1b06af0441c493faa52a952e2d))
+
 ## [1.17.0](https://github.com/mrarnolds/test/compare/v1.16.0...v1.17.0) (2025-05-16)
 
 
