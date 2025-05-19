@@ -61,7 +61,7 @@ jobs:
 
   # Depend on trigger-release manually dispatched otherwise run standalone
   release-please:
-    needs: [trigger-release]
+    needs: trigger-release
     if: github.event_name != 'workflow_dispatch' || success()
     runs-on: ubuntu-latest
     outputs:
@@ -90,6 +90,7 @@ jobs:
   public-changelog:
     needs: release-please
     runs-on: ubuntu-latest
+    if: needs.release-please.outputs.prs_created == 'true'
     steps:
       - name: Checkout release branch
         uses: actions/checkout@v3
