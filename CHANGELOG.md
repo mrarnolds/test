@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.19.0](https://github.com/mrarnolds/test/compare/v1.18.0...v1.19.0) (2025-05-19)
+
+
+### Miscellaneous Chores
+
+* **release:** no user facing changes ([#98](https://github.com/mrarnolds/test/issues/98)) ([dfc5aba](https://github.com/mrarnolds/test/commit/dfc5aba121379d43b266615341c4b49e812fcc68))
+
 ## [1.18.0](https://github.com/mrarnolds/test/compare/v1.17.0...v1.18.0) (2025-05-19)
 
 
