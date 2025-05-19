@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -12,8 +13,8 @@ permissions:
 
 jobs:
   trigger-release:
-    runs-on: ubuntu-latest
     if: github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
     env:
       TRIGGER_BRANCH: release-please--trigger--${{ github.ref_name }}
 
@@ -58,6 +59,9 @@ jobs:
         run: find . -mindepth 1 -maxdepth 1 -not -name "." -not -name ".." -exec rm -rf {} +
 
   release-please:
+    # Depend on trigger-release manually dispatched otherwise run standalone
+    needs: [trigger-release]
+    if: github.event_name != 'workflow_dispatch' || success()
     runs-on: ubuntu-latest
     outputs:
       pr: ${{ steps.release.outputs.pr }}
@@ -83,8 +87,8 @@ jobs:
 
   public-changelog:
     needs: release-please
-    runs-on: ubuntu-latest
     if: needs.release-please.outputs.prs_created == 'true'
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout release branch
         uses: actions/checkout@v3
