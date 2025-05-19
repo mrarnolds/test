@@ -49,10 +49,10 @@ jobs:
 
       - name: Merge pull request
         if: steps.cpr.outputs.pull-request-number != ''
+        continue-on-error: true
         run: |
           echo "Merging PR #${{ steps.cpr.outputs.pull-request-number }}"
           gh pr merge ${{ steps.cpr.outputs.pull-request-number }} --squash --delete-branch --admin
-        continue-on-error: true
 
       - name: Warn on failure
         if: failure()
