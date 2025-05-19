@@ -1,5 +1,20 @@
 # Changelog
 
+## [1.19.0](https://github.com/mrarnolds/test/compare/v1.18.0...v1.19.0) (2025-05-19)
+
+
+### Bug Fixes
+
+* clean up ([37403ab](https://github.com/mrarnolds/test/commit/37403ab697ec98d52f265b85996e1e44a17e0f54))
+* clean up ([abc5f60](https://github.com/mrarnolds/test/commit/abc5f600f50043e2f0a32919c7ab110e29d834e3))
+* test ([8361e88](https://github.com/mrarnolds/test/commit/8361e88fed5270b30821080b925adfcb42c3c276))
+
+
+### Miscellaneous Chores
+
+* **release:** no user facing changes ([#103](https://github.com/mrarnolds/test/issues/103)) ([36a84b4](https://github.com/mrarnolds/test/commit/36a84b425b2eae9a23b99690ae8e180d4860f5e4))
+* **release:** no user facing changes ([#98](https://github.com/mrarnolds/test/issues/98)) ([dfc5aba](https://github.com/mrarnolds/test/commit/dfc5aba121379d43b266615341c4b49e812fcc68))
+
 ## [1.18.0](https://github.com/mrarnolds/test/compare/v1.17.0...v1.18.0) (2025-05-19)
 
 
