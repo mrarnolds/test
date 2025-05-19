@@ -26,11 +26,6 @@ jobs:
         with:
           token: ${{ secrets.RELEASE_PLEASE_TOKEN }}
 
-      - name: Github actions bot user
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
       - name: Delete existing trigger branch
         run: |
           git push origin --delete "${{ env.TRIGGER_BRANCH }}" || true
