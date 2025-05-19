@@ -19,8 +19,8 @@ jobs:
 
       - name: Github actions bot user
         run: |
-          git config user.name "GitHub"
-          git config user.email "noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
       - name: Delete existing trigger branch
         run: |
