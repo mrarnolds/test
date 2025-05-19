@@ -23,8 +23,6 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.RELEASE_PLEASE_TOKEN }}
 
       - name: Github actions bot user
         run: |
@@ -43,7 +41,6 @@ jobs:
         id: cpr
         uses: peter-evans/create-pull-request@v7
         with:
-          token: ${{ secrets.RELEASE_PLEASE_TOKEN }}
           branch: "${{ env.TRIGGER_BRANCH }}"
           title: "chore: trigger release"
           labels: "autorelease:manual"
@@ -100,7 +97,6 @@ jobs:
       - name: Checkout release branch
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.RELEASE_PLEASE_TOKEN }}
           ref: ${{ fromJSON(needs.release-please.outputs.pr).headBranchName }}
 
       - name: Github actions bot user
