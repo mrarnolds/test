@@ -11,6 +11,52 @@ permissions:
   issues: write
 
 jobs:
+  trigger-release:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'workflow_dispatch'
+    env:
+      TRIGGER_BRANCH: release-please--trigger--${{ github.ref_name }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Github actions bot user
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Delete existing trigger branch
+        run: |
+          git push origin --delete "${{ env.TRIGGER_BRANCH }}" || true
+
+      - name: Create empty commit
+        run: |
+          git commit --allow-empty -m "chore(release): no user facing changes"
+
+      - name: Create pull request
+        id: cpr
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: "${{ env.TRIGGER_BRANCH }}"
+          title: "chore: trigger release"
+          labels: "autorelease:manual"
+          body: "Automates the creation of a Release Please PR. No user facing changes."
+          delete-branch: true
+
+      - name: Merge pull request
+        if: steps.cpr.outputs.pull-request-number != ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "Merging PR #${{ steps.cpr.outputs.pull-request-number }}"
+          gh pr merge ${{ steps.cpr.outputs.pull-request-number }} --squash --delete-branch --admin
+
+      - name: Cleanup root files and folders
+        if: always()
+        continue-on-error: true
+        run: find . -mindepth 1 -maxdepth 1 -not -name "." -not -name ".." -exec rm -rf {} +
+
   release-please:
     runs-on: ubuntu-latest
     outputs:
