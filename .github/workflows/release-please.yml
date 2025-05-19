@@ -61,8 +61,6 @@ jobs:
 
   # Depend on trigger-release manually dispatched otherwise run standalone
   release-please:
-    needs: [trigger-release]
-    if: github.event_name != 'workflow_dispatch' || success()
     runs-on: ubuntu-latest
     outputs:
       pr: ${{ steps.release.outputs.pr }}
