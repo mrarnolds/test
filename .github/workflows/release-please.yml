@@ -89,8 +89,8 @@ jobs:
   # Generate public changelog if a release PR was created
   public-changelog:
     needs: release-please
-    if: needs.release-please.outputs.prs_created == true
     runs-on: ubuntu-latest
+    if: needs.release-please.outputs.prs_created == 'true'
     steps:
       - name: Checkout release branch
         uses: actions/checkout@v3
