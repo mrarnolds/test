@@ -1,5 +1,23 @@
 # Changelog
 
+## [1.18.0](https://github.com/mrarnolds/test/compare/v1.17.0...v1.18.0) (2025-05-19)
+
+
+### Bug Fixes
+
+* dropdown ([f3f9443](https://github.com/mrarnolds/test/commit/f3f9443e25ed739f06cd8be22463f8c791c8f666))
+* test ([568af86](https://github.com/mrarnolds/test/commit/568af867cd39318d4690337cab2d8b869cd64250))
+
+
+### Miscellaneous Chores
+
+* **release:** no user facing changes ([#80](https://github.com/mrarnolds/test/issues/80)) ([826e7b7](https://github.com/mrarnolds/test/commit/826e7b7ca5cf971b0ffd7908995d3b7337eb4ff5))
+* **release:** no user facing changes ([#81](https://github.com/mrarnolds/test/issues/81)) ([802c58c](https://github.com/mrarnolds/test/commit/802c58c4bc5c96872292f80172c74b65dbe43a29))
+* **release:** no user facing changes ([#82](https://github.com/mrarnolds/test/issues/82)) ([755aece](https://github.com/mrarnolds/test/commit/755aece1ee6b07cec51aa3c91992829947a67cdf))
+* **release:** no user facing changes ([#84](https://github.com/mrarnolds/test/issues/84)) ([9f43bae](https://github.com/mrarnolds/test/commit/9f43baec758dcf1b06af0441c493faa52a952e2d))
+* **release:** no user facing changes ([#85](https://github.com/mrarnolds/test/issues/85)) ([34dfdd9](https://github.com/mrarnolds/test/commit/34dfdd9fb191705d1a497d9bf3abdce8ffd536c9))
+* **release:** no user facing changes ([#96](https://github.com/mrarnolds/test/issues/96)) ([e71920e](https://github.com/mrarnolds/test/commit/e71920ee929a0eafe48d053b569bbb3d5edc606f))
+
 ## [1.17.0](https://github.com/mrarnolds/test/compare/v1.16.0...v1.17.0) (2025-05-16)
 
 
