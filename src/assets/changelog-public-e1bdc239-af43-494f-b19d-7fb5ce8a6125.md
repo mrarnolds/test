@@ -90,8 +90,3 @@
 - token
 - workflow permissions
 
-## 1.9.1 (2025-05-15)
-
-### Bug Fixes
-
-- missing dropdown
