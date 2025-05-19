@@ -90,7 +90,9 @@ jobs:
   public-changelog:
     needs: release-please
     runs-on: ubuntu-latest
-    if: (github.event_name != 'workflow_dispatch' || success()) && needs.release-please.outputs.prs_created == 'true'
+    if: >
+      needs.release-please.outputs.prs_created == 'true' &&
+      (github.event_name != 'workflow_dispatch' || success())
     steps:
       - name: Checkout release branch
         uses: actions/checkout@v3
