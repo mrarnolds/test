@@ -49,14 +49,9 @@ jobs:
 
       - name: Merge pull request
         if: steps.cpr.outputs.pull-request-number != ''
-        continue-on-error: true
         run: |
           echo "Merging PR #${{ steps.cpr.outputs.pull-request-number }}"
-          gh pr merge ${{ steps.cpr.outputs.pull-request-number }} --squash --delete-branch --admin
-
-      - name: Warn on failure
-        if: failure()
-        run: echo "::warning::You must manually merge the trigger PR"
+          gh pr merge ${{ steps.cpr.outputs.pull-request-number }} --squash --delete-branch --admin || echo "::warning::You must manually merge the trigger PR"
 
       - name: Cleanup root files and folders
         if: always()
