@@ -22,7 +22,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           token: ${{ secrets.RELEASE_PLEASE_TOKEN }}
 
@@ -35,7 +35,7 @@ jobs:
         run: |
           git push origin --delete "${{ env.TRIGGER_BRANCH }}" || true
 
-      - name: Create empty commit
+      - name: Create empty trigger commit
         run: |
           git commit --allow-empty -m "chore(release): no user facing changes"
 
@@ -98,7 +98,7 @@ jobs:
       (github.event_name != 'workflow_dispatch' || success())
     steps:
       - name: Checkout release branch
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           token: ${{ secrets.RELEASE_PLEASE_TOKEN }}
           ref: ${{ fromJSON(needs.release-please.outputs.pr).headBranchName }}
