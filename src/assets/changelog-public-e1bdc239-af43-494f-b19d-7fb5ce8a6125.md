@@ -1,3 +1,9 @@
+## 1.18.0 (2025-05-19)
+
+### Bug Fixes
+
+- dropdown
+
 ## 1.17.0 (2025-05-16)
 
 ### Features
@@ -90,8 +96,3 @@
 - token
 - workflow permissions
 
-## 1.9.1 (2025-05-15)
-
-### Bug Fixes
-
-- missing dropdown
