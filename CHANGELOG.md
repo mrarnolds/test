@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.21.1](https://github.com/mrarnolds/test/compare/v1.21.0...v1.21.1) (2025-05-20)
+
+
+### Bug Fixes
+
+* hellos missing letter ([d0e819e](https://github.com/mrarnolds/test/commit/d0e819e8383e988abbb167f7576569100d6007d2))
+
 ## [1.21.0](https://github.com/mrarnolds/test/compare/v1.20.0...v1.21.0) (2025-05-20)
 
 
