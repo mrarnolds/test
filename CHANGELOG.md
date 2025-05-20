@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.21.1](https://github.com/mrarnolds/test/compare/v1.21.0...v1.21.1) (2025-05-20)
+
+
+### Bug Fixes
+
+* hello title ([a908e72](https://github.com/mrarnolds/test/commit/a908e72c4f1fcd57c70b5bf8bf20b3664e9f7c92))
+
 ## [1.21.0](https://github.com/mrarnolds/test/compare/v1.20.0...v1.21.0) (2025-05-20)
 
 
