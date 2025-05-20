@@ -17,10 +17,15 @@ jobs:
     if: github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     env:
-      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      GH_TOKEN: ${{ secrets.RELEASE_PLEASE_TOKEN }}
       TRIGGER_BRANCH: release-please--trigger--${{ github.ref_name }}
 
     steps:
+      - name: Install GitHub CLI
+        run: |
+          curl -sS https://webi.sh/gh | sh
+          source ~/.config/envman/PATH.env
+
       - name: Checkout repository
         uses: actions/checkout@v4
 
@@ -71,7 +76,7 @@ jobs:
         id: release
         uses: googleapis/release-please-action@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.RELEASE_PLEASE_TOKEN }}
           target-branch: ${{ github.ref_name }}
           manifest-file: ".release-please/release-please-manifest.json"
           config-file: ".release-please/release-please-config.json"
