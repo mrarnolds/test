@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.24.1](https://github.com/mrarnolds/test/compare/v1.24.0...v1.24.1) (2025-05-20)
+
+
+### Bug Fixes
+
+* correct title ([0192034](https://github.com/mrarnolds/test/commit/019203436818b0f68a7180edd64c892e715508b1))
+
 ## [1.24.0](https://github.com/mrarnolds/test/compare/v1.23.0...v1.24.0) (2025-05-20)
 
 
