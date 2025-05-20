@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.23.0](https://github.com/mrarnolds/test/compare/v1.22.0...v1.23.0) (2025-05-20)
+
+
+### Bug Fixes
+
+* dotting ([e9b5e9d](https://github.com/mrarnolds/test/commit/e9b5e9d1eab97fcd9df6c84fd6a7f3dd257e09bb))
+
 ## [1.22.0](https://github.com/mrarnolds/test/compare/v1.21.0...v1.22.0) (2025-05-20)
 
 
