@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.25.0](https://github.com/mrarnolds/test/compare/v1.24.1...v1.25.0) (2025-05-20)
+
+
+### Miscellaneous Chores
+
+* hotfix title ([6570627](https://github.com/mrarnolds/test/commit/6570627ee5fd8c9b98111483774b2d8c0697180b))
+
 ## [1.24.1](https://github.com/mrarnolds/test/compare/v1.24.0...v1.24.1) (2025-05-20)
 
 
