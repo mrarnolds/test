@@ -1,5 +1,22 @@
 # Changelog
 
+## [1.24.0](https://github.com/mrarnolds/test/compare/v1.23.0...v1.24.0) (2025-05-20)
+
+
+### Bug Fixes
+
+* clean up ([890bb91](https://github.com/mrarnolds/test/commit/890bb91eb9c6a468a21e58ec7c447483172ee9c5))
+* dots ([5544d8d](https://github.com/mrarnolds/test/commit/5544d8d6e6e603c57951b76de0e3821269323f59))
+* skip manifest file ([785287f](https://github.com/mrarnolds/test/commit/785287f74b618551540e8e06eb740b5c4ba48f7a))
+* test ([002daaf](https://github.com/mrarnolds/test/commit/002daaf13ea6b4e6fa716d8fda4ffd69b0a78c85))
+* test ([b454e59](https://github.com/mrarnolds/test/commit/b454e59525df6da26a307e1ad317ee6c7b297e82))
+* test ([3db55aa](https://github.com/mrarnolds/test/commit/3db55aa87d1302c568c4783f9ae601e4709ab2ca))
+
+
+### Miscellaneous Chores
+
+* hotfix title ([#128](https://github.com/mrarnolds/test/issues/128)) ([a45f6f1](https://github.com/mrarnolds/test/commit/a45f6f1b8efcd7509661ae2673d330ea3377b0df))
+
 ## [1.23.1](https://github.com/mrarnolds/test/compare/v1.23.0...v1.23.1) (2025-05-20)
 
 

@@ -1,3 +1,20 @@
+## 1.24.0 (2025-05-20)
+
+### Bug Fixes
+
+- clean up
+- dots
+- skip manifest file
+- test
+- test
+- test
+
+## 1.23.1 (2025-05-20)
+
+### Bug Fixes
+
+- better title
+
 ## 1.23.0 (2025-05-20)
 
 ### Bug Fixes
@@ -61,16 +78,3 @@
 - copy now
 - revert ci
 - text ([#75](https://github.com/mrarnolds/test/issues/75))
-
-## 1.16.0 (2025-05-16)
-
-### Features
-
-- option added
-
-### Bug Fixes
-
-- missing stuff
-- test
-- test
-
