@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.20.0](https://github.com/mrarnolds/test/compare/v1.19.0...v1.20.0) (2025-05-20)
+
+
+### Miscellaneous Chores
+
+* **release:** no user facing changes ([#117](https://github.com/mrarnolds/test/issues/117)) ([4b66143](https://github.com/mrarnolds/test/commit/4b66143e319dad2b47a4dca30a2a8a9a4dd677dd))
+
 ## [1.19.0](https://github.com/mrarnolds/test/compare/v1.18.0...v1.19.0) (2025-05-19)
 
 
