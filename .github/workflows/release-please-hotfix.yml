@@ -24,7 +24,6 @@ jobs:
           release-type: "node"
           token: ${{ secrets.RELEASE_PLEASE_TOKEN }}
           target-branch: ${{ github.ref_name }}
-          manifest-file: ".release-please/release-please-manifest.json"
           config-file: ".release-please/release-please-config-hotfix.json"
 
       - name: Cleanup root files and folders
