@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.23.1](https://github.com/mrarnolds/test/compare/v1.23.0...v1.23.1) (2025-05-20)
+
+
+### Bug Fixes
+
+* better title ([8f14679](https://github.com/mrarnolds/test/commit/8f14679a537d6a48df839102a5465c519f74a8ff))
+
 ## [1.23.0](https://github.com/mrarnolds/test/compare/v1.22.0...v1.23.0) (2025-05-20)
 
 
