@@ -1,3 +1,10 @@
+## 1.26.0 (2025-05-22)
+
+### Bug Fixes
+
+- delete
+- user
+
 ## 1.24.1 (2025-05-20)
 
 ### Bug Fixes
@@ -49,12 +56,3 @@
 ### Bug Fixes
 
 - option 4
-
-## 1.19.0 (2025-05-19)
-
-### Bug Fixes
-
-- clean up
-- clean up
-- test
-
