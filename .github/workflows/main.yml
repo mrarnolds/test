@@ -12,3 +12,8 @@ jobs:
     steps:
       - name: Test step
         run: echo "Running tests..."
+
+      - name: Triggering build on tag
+        run: |
+          gh workflow run deploy-to-stage.yml \
+            --ref ${{ github.ref_name }}
