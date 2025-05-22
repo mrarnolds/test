@@ -5,12 +5,11 @@ on:
     workflows: ["Test and build"]
     types:
       - completed
-    tags:
-      - "*"
 
 jobs:
   deploy:
     name: Deploy release to staging
+    if: ${{ github.ref_type == 'tag' }}
     runs-on: ubuntu-latest
     steps:
       - name: Notify deployment success
