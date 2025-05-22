@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.29.1](https://github.com/mrarnolds/test/compare/v1.29.0...v1.29.1) (2025-05-22)
+
+
+### Bug Fixes
+
+* remove option ([2e7c57e](https://github.com/mrarnolds/test/commit/2e7c57ec407d336332cffceeca4e7bf2a6af13ba))
+
 ## [1.29.0](https://github.com/mrarnolds/test/compare/v1.28.0...v1.29.0) (2025-05-22)
 
 
