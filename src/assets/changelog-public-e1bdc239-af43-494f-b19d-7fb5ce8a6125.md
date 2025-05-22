@@ -1,3 +1,9 @@
+## 1.28.0 (2025-05-22)
+
+### Bug Fixes
+
+- ci
+
 ## 1.27.0 (2025-05-22)
 
 ### Features
@@ -126,9 +132,3 @@
 ### Bug Fixes
 
 - hellos missing letter
-
-## 1.21.0 (2025-05-20)
-
-### Bug Fixes
-
-- option 4
