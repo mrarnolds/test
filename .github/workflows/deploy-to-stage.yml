@@ -9,8 +9,9 @@ on:
       - "*"
 
 jobs:
-  name: Deploy release to staging
-  runs-on: ubuntu-latest
-  steps:
-    - name: Notify deployment success
-      run: echo "Deployment to staging was successful!"
+  deploy:
+    name: Deploy release to staging
+    runs-on: ubuntu-latest
+    steps:
+      - name: Notify deployment success
+        run: echo "Deployment to staging was successful!"

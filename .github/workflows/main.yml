@@ -1,12 +1,14 @@
 name: Test and build
 
 on:
-  tags:
-    - "*"
+  push:
+    tags:
+      - "*"
 
 jobs:
-  name: Do our tests
-  runs-on: ubuntu-latest
-  steps:
-    - name: Test step
-      run: echo "Running tests..."
+  build:
+    name: Do our tests
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test step
+        run: echo "Running tests..."
