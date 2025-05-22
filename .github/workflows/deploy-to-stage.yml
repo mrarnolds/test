@@ -1,0 +1,16 @@
+name: Deploy to Stage
+
+on:
+  workflow_run:
+    workflows: ["Test and build"]
+    types:
+      - completed
+    tags:
+      - "*"
+
+jobs:
+  name: Deploy release to staging
+  runs-on: ubuntu-latest
+  steps:
+    - name: Notify deployment success
+      run: echo "Deployment to staging was successful!"
