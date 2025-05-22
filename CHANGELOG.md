@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.30.1](https://github.com/mrarnolds/test/compare/v1.30.0...v1.30.1) (2025-05-22)
+
+
+### Bug Fixes
+
+* zz ([413f600](https://github.com/mrarnolds/test/commit/413f600e73741d1e73bba94c70e6df259e8f4422))
+
 ## [1.30.0](https://github.com/mrarnolds/test/compare/v1.29.0...v1.30.0) (2025-05-22)
 
 
