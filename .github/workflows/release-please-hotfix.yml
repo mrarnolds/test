@@ -35,6 +35,11 @@ jobs:
     needs: release-please
     if: ${{ needs.release-please.outputs.releases_created == 'true' }}
     steps:
+      - name: Checkout hotfix branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}
+
       - name: Github actions bot user
         run: |
           git config user.name "github-actions[bot]"
