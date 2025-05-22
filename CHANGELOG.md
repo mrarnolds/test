@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.26.0](https://github.com/mrarnolds/test/compare/v1.25.0...v1.26.0) (2025-05-22)
+
+
+### Bug Fixes
+
+* delete ([0106df8](https://github.com/mrarnolds/test/commit/0106df8eeb562abac1a38e93711f557d06b4d727))
+* user ([4ae521d](https://github.com/mrarnolds/test/commit/4ae521d29b2863078386e425458a8a07732cad3c))
+
 ## [1.25.0](https://github.com/mrarnolds/test/compare/v1.24.1...v1.25.0) (2025-05-20)
 
 
