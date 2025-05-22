@@ -2,6 +2,15 @@ name: Deploy to Stage
 
 on:
   workflow_dispatch:
+    inputs:
+      environment:
+        description: "Select the environment to deployment"
+        required: true
+        type: choice
+        options:
+          - development
+          - staging
+          - production
 
 jobs:
   debug:
@@ -17,12 +26,7 @@ jobs:
           echo "Ref name: ${{ github.ref_name }}"
           echo "Actor: ${{ github.actor }}"
           echo "Repository: ${{ github.repository }}"
-          echo "Head commit: ${{ github.event.head_commit.id }}"
-          echo "Head commit message: ${{ github.event.head_commit.message }}"
-          echo "Head commit author: ${{ github.event.head_commit.author.name }}"
-          echo "Head commit timestamp: ${{ github.event.head_commit.timestamp }}"
-          echo "Head commit URL: ${{ github.event.head_commit.url }}"
-          echo "Head commit message: ${{ github.event.head_commit.message }}"
+          echo "Environment: ${{ github.event.inputs.environment }}"
 
   deploy:
     name: Deploy release to staging
