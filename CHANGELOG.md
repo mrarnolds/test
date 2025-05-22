@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.29.0](https://github.com/mrarnolds/test/compare/v1.28.0...v1.29.0) (2025-05-22)
+
+
+### Bug Fixes
+
+* ci ([8937f78](https://github.com/mrarnolds/test/commit/8937f78af43237454caf8b0269774653eb7e2bd7))
+* test ([79de3cc](https://github.com/mrarnolds/test/commit/79de3cce7b9c071703549c95cd18e7efe59bc48b))
+
 ## [1.28.0](https://github.com/mrarnolds/test/compare/v1.27.0...v1.28.0) (2025-05-22)
 
 
