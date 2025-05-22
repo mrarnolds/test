@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.28.0](https://github.com/mrarnolds/test/compare/v1.27.0...v1.28.0) (2025-05-22)
+
+
+### Bug Fixes
+
+* ci ([9341997](https://github.com/mrarnolds/test/commit/9341997371aec25b6ee6dae3f8afb168ae919ecf))
+
 ## [1.27.0](https://github.com/mrarnolds/test/compare/v1.26.0...v1.27.0) (2025-05-22)
 
 
