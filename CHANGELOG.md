@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.25.1](https://github.com/mrarnolds/test/compare/v1.25.0...v1.25.1) (2025-05-22)
+
+
+### Bug Fixes
+
+* extra option ([fb6d846](https://github.com/mrarnolds/test/commit/fb6d846165f43eb431d50094964bf9b319f116ae))
+* user ([4ae521d](https://github.com/mrarnolds/test/commit/4ae521d29b2863078386e425458a8a07732cad3c))
+
 ## [1.25.0](https://github.com/mrarnolds/test/compare/v1.24.1...v1.25.0) (2025-05-20)
 
 
