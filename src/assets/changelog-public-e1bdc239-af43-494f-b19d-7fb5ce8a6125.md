@@ -1,3 +1,9 @@
+## 1.33.0 (2025-05-23)
+
+### Bug Fixes
+
+- test
+
 ## 1.32.0 (2025-05-22)
 
 ### Bug Fixes
@@ -117,15 +123,3 @@
 ### Bug Fixes
 
 - correct title
-
-## 1.24.0 (2025-05-20)
-
-### Bug Fixes
-
-- clean up
-- dots
-- skip manifest file
-- test
-- test
-- test
-
