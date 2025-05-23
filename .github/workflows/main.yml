@@ -13,15 +13,6 @@ jobs:
       - name: Test step
         run: echo "Running tests..."
 
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Triggering build on tag
-        if: startsWith(github.ref, 'refs/tags/v') && endsWith(github.ref, '.0')
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: gh workflow run deploy-to-stage.yml --ref ${{ github.ref_name }}
-
   deploy-staging:
     name: Deploy minor tag to staging
     runs-on: self-hosted
@@ -40,4 +31,7 @@ jobs:
         if: startsWith(github.ref, 'refs/tags/v') && endsWith(github.ref, '.0')
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: gh workflow run deployment-tag.yml --ref ${{ github.ref_name }} --field environment=staging
+        run: |
+          gh workflow run deployment-tag.yml \
+            --ref ${{ github.ref_name }} \
+            --field environment=staging
