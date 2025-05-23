@@ -1,3 +1,9 @@
+## 1.34.0 (2025-05-23)
+
+### Bug Fixes
+
+- test
+
 ## 1.33.0 (2025-05-23)
 
 ### Bug Fixes
@@ -117,9 +123,3 @@
 
 - delete
 - user
-
-## 1.24.1 (2025-05-20)
-
-### Bug Fixes
-
-- correct title
