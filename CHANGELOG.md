@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.38.0](https://github.com/mrarnolds/test/compare/v1.37.0...v1.38.0) (2025-05-23)
+
+
+### Bug Fixes
+
+* test ([5d00653](https://github.com/mrarnolds/test/commit/5d00653b01b7b59621a2a3c64bf21994b5bcdf2c))
+* test ([314ee47](https://github.com/mrarnolds/test/commit/314ee47c4056201dd5f840eae91059c53c378bd4))
+
 ## [1.37.0](https://github.com/mrarnolds/test/compare/v1.36.0...v1.37.0) (2025-05-23)
 
 
