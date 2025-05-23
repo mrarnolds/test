@@ -71,6 +71,10 @@ jobs:
     outputs:
       pr: ${{ steps.release.outputs.pr }}
       prs_created: ${{ steps.release.outputs.prs_created }}
+      release_created: ${{ steps.release.outputs.release_created }}
+      major: ${{ steps.release.outputs.major }}
+      minor: ${{ steps.release.outputs.minor }}
+      patch: ${{ steps.release.outputs.patch }}
     steps:
       - name: Github actions bot user
         run: |
@@ -132,3 +136,26 @@ jobs:
         if: always()
         continue-on-error: true
         run: find . -mindepth 1 -maxdepth 1 -not -name "." -not -name ".." -exec rm -rf {} +
+
+  # Create JIRA release
+  jira-release:
+    runs-on: ubuntu-latest
+    needs: release-please
+    if: ${{ needs.release-please.outputs.release_created == 'true' }}
+    steps:
+      - name: Checkout branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}
+
+      - name: Create Jira Release
+        run: |
+          curl -X POST "${{ vars.JIRA_API_URL }}/version" \
+            --user "${{ vars.JIRA_EMAIL }}:${{ secrets.JIRA_API_TOKEN }}" \
+            --header 'Content-Type: application/json' \
+            --data '{
+              "name": "${{ github.event.inputs.version }}",
+              "project": "PDP",
+              "released": false,
+              "releaseDate": "'"$(date +%Y-%m-%d)"'"
+            }'
