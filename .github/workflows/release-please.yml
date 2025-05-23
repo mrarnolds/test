@@ -142,7 +142,9 @@ jobs:
   jira-release:
     runs-on: ubuntu-latest
     needs: release-please
-    if: ${{ needs.release-please.outputs.release_created == 'true' }}
+    if: >
+      needs.release-please.outputs.release_created == 'true' &&
+      (github.event_name != 'workflow_dispatch' || success())
     steps:
       - name: Checkout branch
         uses: actions/checkout@v4
