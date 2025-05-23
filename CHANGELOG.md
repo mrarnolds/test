@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.35.0](https://github.com/mrarnolds/test/compare/v1.34.0...v1.35.0) (2025-05-23)
+
+
+### Bug Fixes
+
+* test ([b73d7f4](https://github.com/mrarnolds/test/commit/b73d7f446b22c346e08f1d50c303bee2392f5de2))
+
 ## [1.34.0](https://github.com/mrarnolds/test/compare/v1.33.0...v1.34.0) (2025-05-23)
 
 
