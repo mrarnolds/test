@@ -157,7 +157,7 @@ jobs:
             --user "${{ vars.JIRA_EMAIL }}:${{ secrets.JIRA_API_TOKEN }}" \
             --header 'Content-Type: application/json' \
             --data '{
-              "name": "FE Release v${{ github.event.inputs.version }}",
+              "name": "FE Release v${{ needs.release-please.outputs.major }}.${{ needs.release-please.outputs.minor }}.${{ needs.release-please.outputs.patch }}",
               "project": "PDP",
               "released": false,
               "releaseDate": "'"$(date +%Y-%m-%d)"'"
