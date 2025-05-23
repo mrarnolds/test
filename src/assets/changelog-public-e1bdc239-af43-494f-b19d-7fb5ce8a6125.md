@@ -1,3 +1,15 @@
+## 1.36.0 (2025-05-23)
+
+### Bug Fixes
+
+- test
+
+## 1.35.0 (2025-05-23)
+
+### Bug Fixes
+
+- test
+
 ## 1.34.0 (2025-05-23)
 
 ### Bug Fixes
@@ -117,9 +129,3 @@
 - value correct
 - workflow permissions
 
-## 1.26.0 (2025-05-22)
-
-### Bug Fixes
-
-- delete
-- user
